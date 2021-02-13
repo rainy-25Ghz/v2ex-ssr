@@ -1,0 +1,103 @@
+body {
+    margin: 0
+}
+
+:root {
+    --box-background-color: #fff;
+    --box-background-alt-color: #f9f9f9;
+    --box-background-hover-color: #fafafa;
+    --box-foreground-color: #000;
+    --box-border-color: #e2e2e2;
+    --box-border-focus-color: #a6a6b0;
+    --box-padding: 10px;
+    --box-border-radius: 3px;
+    --box-font-size: 14px;
+    --box-line-height: 120%;
+    --menu-shadow-color: rgba(0, 0, 0, 0.2);
+    --ads-list-foreground-color: #445;
+    --component-margin: 20px;
+    --link-color: #778087;
+    --link-visited-color: #afb9c1;
+    --link-hover-color: #4d5256;
+    --color-gray: #999;
+    --color-fade: #ccc;
+}
+
+.tab_current {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 5px 6px;
+    margin-right: 5px;
+    border-radius: 3px;
+    background-color: #334;
+    color: #fff;
+}
+
+.tab {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 5px 6px;
+    margin-right: 5px;
+    border-radius: 3px;
+    color: #555;
+}
+
+.cell {
+    padding: 5px;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+    border-bottom: 1px solid var(--box-border-color);
+}
+
+.cell-item {
+    padding: 5px;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+    border-bottom: 1px solid var(--box-border-color);
+}
+
+.cell .avatar {
+    max-width: 24px;
+    max-height: 24px;
+    border-radius: 4px;
+    margin-right: 2%;
+}
+
+.cell .title-wrapper {
+    flex-basis: 80%;
+}
+
+.cell .title {
+    color: #778087;
+    text-decoration: none;
+    word-break: break-word;
+    font-size: 16px;
+    line-height: 130%;
+    text-shadow: 0 1px 0 #fff;
+    hyphens: auto;
+    cursor: pointer;
+}
+
+.cell .footer {
+    font-size: 12px;
+    color: #778087;
+    font-weight: bolder;
+}
+
+.cell .replies {
+    FLEX-BASIS: 5%;
+    MARGIN-LEFT: 2%;
+    line-height: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #aab0c6;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin-right: 5px;
+}
