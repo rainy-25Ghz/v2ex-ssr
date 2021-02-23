@@ -9,13 +9,13 @@ body {
     --box-foreground-color: #000;
     --box-border-color: #e2e2e2;
     --box-border-focus-color: #a6a6b0;
-    --box-padding: 10px;
+    --box-padding: 2.6667vw;
     --box-border-radius: 3px;
-    --box-font-size: 14px;
+    --box-font-size: 3.7333vw;
     --box-line-height: 120%;
     --menu-shadow-color: rgba(0, 0, 0, 0.2);
     --ads-list-foreground-color: #445;
-    --component-margin: 20px;
+    --component-margin: 5.3333vw;
     --link-color: #778087;
     --link-visited-color: #afb9c1;
     --link-hover-color: #4d5256;
@@ -25,45 +25,45 @@ body {
 
 .tab_current {
     display: inline-block;
-    font-size: 13px;
-    line-height: 16px;
-    padding: 5px 6px;
-    margin-right: 5px;
-    border-radius: 3px;
+    font-size: 3.4667vw;
+    line-height: 4.2667vw;
+    padding: 1.3333vw 1.6vw;
+    margin-right: 1.3333vw;
+    border-radius: 0.8vw;
     background-color: #334;
     color: #fff;
 }
 
 .tab {
     display: inline-block;
-    font-size: 13px;
-    line-height: 16px;
-    padding: 5px 6px;
-    margin-right: 5px;
-    border-radius: 3px;
+    font-size: 3.4667vw;
+    line-height: 4.2667vw;
+    padding: 1.3333vw 1.6vw;
+    margin-right: 1.3333vw;
+    border-radius: 0.8vw;
     color: #555;
 }
 
 .cell {
-    padding: 5px;
-    font-size: 14px;
+    padding: 1.3333vw;
+    font-size: 3.7333vw;
     line-height: 150%;
     text-align: left;
     border-bottom: 1px solid var(--box-border-color);
 }
 
 .cell-item {
-    padding: 5px;
-    font-size: 14px;
+    padding: 1.3333vw;
+    font-size: 3.7333vw;
     line-height: 150%;
     text-align: left;
     border-bottom: 1px solid var(--box-border-color);
 }
 
 .cell .avatar {
-    max-width: 24px;
-    max-height: 24px;
-    border-radius: 4px;
+    width: 6.4vw;
+    height: 6.4vw;
+    border-radius: 1.0667vw;
     margin-right: 2%;
 }
 
@@ -75,7 +75,7 @@ body {
     color: #778087;
     text-decoration: none;
     word-break: break-word;
-    font-size: 16px;
+    font-size: 4.2667vw;
     line-height: 130%;
     text-shadow: 0 1px 0 #fff;
     hyphens: auto;
@@ -83,7 +83,7 @@ body {
 }
 
 .cell .footer {
-    font-size: 12px;
+    font-size: 3.2vw;
     color: #778087;
     font-weight: bolder;
 }
@@ -91,13 +91,14 @@ body {
 .cell .replies {
     FLEX-BASIS: 5%;
     MARGIN-LEFT: 2%;
-    line-height: 12px;
+    line-height: 3.2vw;
     font-weight: 700;
     color: #fff;
     background-color: #aab0c6;
     display: inline-block;
-    padding: 2px 10px;
-    border-radius: 12px;
+    padding: 0.5333vw 2.6667vw;
+    border-radius: 3.2vw;
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 1.3333vw;
+    text-align: center;
 }

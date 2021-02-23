@@ -3,8 +3,11 @@ import { getReplies, getTopicInfo } from "../../lib/v2exApi";
 import { useEffect, useState } from "react";
 //import { useRouter } from "next/router";
 import Link from "next/link";
-function createHtml(string) {
-  return { __html: string };
+interface htmlContent {
+  __html: string;
+}
+function createHtml(str: string): htmlContent {
+  return { __html: str };
 }
 function Page({ data, topic }) {
   // Render data...
